@@ -1,4 +1,8 @@
-# Predicting Well Interference in Shale Gas Exploration using GraphSAGE and GRU
+# Shale Gas Production Forecasting with Well Interference Based on Spatial-Temporal Graph Convolution Network
+
+## Citation
+
+If you use this code in your research, please cite the following paper: Xu, Z., & Leung, J. Y. (2023, October). Shale Gas Production Forecasting with Well Interference Based on Spatial-Temporal Graph Convolutional Network. In SPE Annual Technical Conference and Exhibition(p. D031S032R004). SPE.
 
 ## Introduction
 
