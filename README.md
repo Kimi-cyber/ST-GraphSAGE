@@ -12,9 +12,16 @@ GCNs process data on irregular and non-Euclidean domains. Inspired by spectral c
 
 In this study, we employ the Graph Sampling and Aggregation (GraphSAGE) method, which follows inductive learning principles. By training on the aggregator to extract features from neighboring nodes, GraphSAGE enables generalization of predictions to unseen nodes. This approach proves crucial in capturing well interference, making predictions for new wells at any location, and adeptly monitoring dynamic changes in producing wells.
 
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/ec4b0f24-a93e-4c31-8501-15b8d645389d)
+
+
 ## Methodology
 
 We leverage GraphSAGE in conjunction with Gated Recurrent Unit (GRU) and time-distributed layers to capture spatial-temporal (ST) information. Our approach allows the adjacency matrix to vary over time, enhancing adaptability.
+
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/7585cf40-6598-40ac-b95f-fc510a0e4f78)
+
+
 
 ### Input Shape
 
@@ -31,11 +38,22 @@ We focus on 2240 wells with complete features, clustered based on pads using DBS
 
 We form disjoint unions for full batch training.
 
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/05326eaa-2be4-4d85-af6b-b15faa632392)
+
+
 ## Results
 
 The figure displays predicted production curves of 16 wells from different pads, using our model trained on the full batch. These curves effectively capture both trends and sudden changes in production.
 
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/10b324aa-7f64-4e0f-9218-c1726a475bc1)
+
+
 We also investigate the similarity in production profiles, particularly for the 11th and 17th pads. This showcases the resemblance in their production profiles, suggesting connections within the production behavior in the same pad.
+
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/db352245-7383-4449-851e-65b18081ae06)
+
+![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/0f3f75af-4524-43ea-be6b-954bee4d2c7b)
+
 
 For more detailed information, please refer to the original paper.
 
