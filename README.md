@@ -12,9 +12,10 @@ GCNs process data on irregular and non-Euclidean domains. Inspired by spectral c
 
 In this study, we employ the Graph Sampling and Aggregation (GraphSAGE) method, which follows inductive learning principles. By training on the aggregator to extract features from neighboring nodes, GraphSAGE enables generalization of predictions to unseen nodes. This approach proves crucial in capturing well interference, making predictions for new wells at any location, and adeptly monitoring dynamic changes in producing wells.
 
-![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/ec4b0f24-a93e-4c31-8501-15b8d645389d)
+<div style="text-align:center">
+  <img src="https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/ec4b0f24-a93e-4c31-8501-15b8d645389d" alt="GitHub Logo" width="500">
+</div>
 https://dnicolasespinoza.github.io/node57.html 
-
 
 ## Methodology
 
