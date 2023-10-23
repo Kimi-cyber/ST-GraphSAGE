@@ -44,7 +44,7 @@ We form disjoint unions for full batch training.
 
 ## Results
 
-The figure displays predicted production curves of 16 wells from different pads, using our model trained on the full batch. These curves effectively capture both trends and sudden changes in production.
+The task involves utilizing a 12-month historical dataset and features such as reservoir properties and well completion information to forecast the subsequent 36 months. The figure displays predicted production curves of 16 wells from different pads, using our model trained on the full batch. These curves effectively capture both trends and sudden changes in production.
 
 ![image](https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/10b324aa-7f64-4e0f-9218-c1726a475bc1)
 
