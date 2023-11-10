@@ -10,7 +10,7 @@ Hydraulic fracturing is a crucial process in making shale gas exploration profit
 
 GCNs process data on irregular and non-Euclidean domains. Inspired by spectral convolution, they perform message passing through layer-wise propagation, progressively capturing more complex K-hop information. However, traditional GCNs operate under transductive learning, limiting predictions to known nodes and lacking batch efficiency. 
 
-In this study, we employ the Graph Sampling and Aggregation (GraphSAGE) method, which follows inductive learning principles. By training on the aggregator to extract features from neighboring nodes, GraphSAGE enables generalization of predictions to unseen nodes. This approach proves crucial in capturing well interference, making predictions for new wells at any location, and adeptly monitoring dynamic changes in producing wells.
+In this study, we employ the Graph Sampling and Aggregation (GraphSAGE) method, which follows inductive learning principles. By training on the aggregator to extract features from neighboring nodes, GraphSAGE enables the generalization of predictions to unseen nodes. This approach proves crucial in capturing well interference, making predictions for new wells at any location, and adeptly monitoring dynamic changes in producing wells.
 
 <div style="text-align:center">
   <img src="https://github.com/ziming-zx/ST-GraphSAGE/assets/55851734/ec4b0f24-a93e-4c31-8501-15b8d645389d" alt="GitHub Logo" width="500">
@@ -61,4 +61,4 @@ For more detailed information, please refer to the original paper.
 
 ---
 
-This research demonstrates the potential of integrating GraphSAGE with GRU for predicting well interference in shale gas exploration. The methodology proves robust and adaptable, paving the way for more accurate and reliable production forecasts in the industry.
+This research demonstrates the potential of integrating GraphSAGE with Recurrent Neural Networks for predicting well interference in shale gas exploration. The methodology proves robust and adaptable, paving the way for more accurate and reliable production forecasts in the industry.
