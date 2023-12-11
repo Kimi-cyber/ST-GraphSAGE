@@ -13,12 +13,13 @@ from tensorflow.keras import layers
 from tensorflow.keras import Model
 
 #%%
-df = pd.read_csv('STGCNdata.csv') # please email me for the dataset
-# email address: ziming4@ualberta.ca
+df = pd.read_csv('STGCNdata.csv') # please email  us for the dataset
+# email address: juliana2@ualberta.ca; ziming4@ualberta.ca
+
 df = df.drop('CDWater_BBLPerDAY',axis=1)
-feature_no = len(list(df))
+feature_no = len(list(pdf))
 # Extract
-data_cols = list(list(df)[i] for i in list(range(1,feature_no)))
+data_cols = list(list(pdf)[i] for i in list(range(1,feature_no)))
 print(data_cols)
 data = df[data_cols].astype(float).to_numpy()
 # qg index
