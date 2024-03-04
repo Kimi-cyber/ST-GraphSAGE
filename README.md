@@ -27,8 +27,8 @@ We leverage GraphSAGE in conjunction with Gated Recurrent Unit (GRU) and time-di
 
 ### Input Shape
 
-- X: [batch(node), sequence, features]
-- 𝐴djacency matrix: [batch(node), sequence, node number]
+- X: `[batch(node), sequence, features]`
+- 𝐴djacency matrix: `[batch(node), sequence, node number]`
 
 ## Data Description
 
