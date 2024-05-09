@@ -304,7 +304,7 @@ SAGEmodel.fit(
     batch_size= x_tr.shape[0],
     epochs=epochs)
 
-filename="GraphEncoder_mean_weight1"
+filename="GraphEncoder_weight1"
 filepath = filename+".hdf5"
 SAGEmodel.save_weights(filepath)
 
@@ -315,7 +315,7 @@ y_pred = SAGEmodel.predict([x_te,dx_te,adj_te_padded], batch_size= x_te.shape[0]
 print(y_pred.shape)
 
 #%% Prediction
-filename="GraphEncoder_weight3"
+filename="GraphEncoder_weight1"
 filepath = filename+".hdf5"
 SAGEmodel.load_weights(filepath)
 y_pred = SAGEmodel.predict([x_te,dx_te,adj_te_padded])
