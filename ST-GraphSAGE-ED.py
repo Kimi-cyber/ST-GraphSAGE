@@ -13,8 +13,11 @@ from tensorflow.keras import layers
 from tensorflow.keras import Model
 
 #%%
-df = pd.read_csv('STGCNdata.csv') # please email  us for the dataset
-# email address: juliana2@ualberta.ca; ziming4@ualberta.ca
+df = pd.read_csv('STGCNdata.csv') #  Due to confidentiality agreements with the data provider company, we cannot share the original dataset. 
+                                    # However, I am currently preparing a synthetic dataset that you can use to test the model. 
+                                    # This dataset will soon be made available on GitHub.
+                                    # If you have any questions about the model, feel free to contact us.
+                                    # email address: juliana2@ualberta.ca; ziming4@ualberta.ca
 
 df = df.drop('CDWater_BBLPerDAY',axis=1)
 feature_no = len(list(pdf))
